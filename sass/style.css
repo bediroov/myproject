@@ -1,0 +1,77 @@
+body, * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: auto;
+  height: auto;
+  background-color: #df8b8f;
+}
+.wrapper .container {
+  width: auto;
+  height: auto;
+  background-color: #df8b8f;
+}
+.wrapper .container .card {
+  transition: 0.5s;
+  transition-timing-function: cubic-bezier(0.5, 2.5, 0.7, 0.7);
+}
+.wrapper .container .card img {
+  background-color: rgb(118, 5, 5);
+  width: 80px;
+  height: 80px;
+}
+.wrapper .container .card:hover {
+  background-color: rgb(153, 13, 13);
+}
+.wrapper .container #picture img {
+  width: 80%;
+}
+
+.row {
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+.row h3 {
+  color: rgb(57, 28, 8);
+}
+.row h1 {
+  font-weight: bold;
+  color: rgb(48, 45, 45);
+}
+.row .input-group {
+  width: 100%;
+  height: 50px;
+}
+.row .input-group #giris {
+  width: 40%;
+  height: auto;
+}
+.row .input-group #enter {
+  width: 30%;
+  background-color: brown;
+  height: auto;
+}
+.row .input-group #enter:hover {
+  background-color: blue;
+  opacity: 1;
+}
+.row #sekilimiz img {
+  width: 60%;
+}
+
+.soz {
+  text-align: center;
+}
+.soz h3 {
+  color: rgb(255, 200, 0);
+}
+
+.sekil {
+  box-shadow: -16px 10px 5px 0px rgba(184, 6, 24, 0.75);
+}/*# sourceMappingURL=style.css.map */
